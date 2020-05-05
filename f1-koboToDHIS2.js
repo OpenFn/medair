@@ -24,8 +24,8 @@ createTEI({
     {
       orgUnit: 'g8upMTyEZGZ',
       program: 'IpHINAT79UW', //enroll in COVID-19 program
-      enrollmentDate: dataValue('data._submission_time')(state).substring(0, 9),
-      incidentDate: dataValue('data._submission_time')(state).substring(0, 9),
+      enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10),
+      incidentDate: dataValue('data._submission_time')(state).substring(0, 10),
     },
   ],
 });
