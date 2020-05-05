@@ -3,8 +3,8 @@ insertDocuments({
   database: 'medair',
   collection: 'beneficiaries',
   documents: (state) => {
-    return state.data.map((ben) => {
-      return { name: ben.name, age: ben.age };
+    return state.data.map((person) => {
+      return { name: person.name, age: person.age };
     });
   },
 });
