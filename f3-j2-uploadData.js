@@ -3,7 +3,8 @@ insertDocuments({
   database: 'medair',
   collection: 'events',
   documents: (state) => {
-    console.log('DHIS2 says: ' + JSON.stringify(state.data));
+    console.log('DHIS2 refs: ' + JSON.stringify(state.references));
+    console.log('DHIS2 data: ' + JSON.stringify(state.data));
     const event = state.references[0];
     return [
       {
