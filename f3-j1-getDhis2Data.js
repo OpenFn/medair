@@ -2,7 +2,7 @@
 fetchEvents({
   fields: {
     orgUnit: 'BfMAe6Itzgt',
-    program: 'Rp268JB6Ne4',
+    program: 'lxAQ7Zs9VYR',
     endDate: '2021-01-01',
   },
 });
