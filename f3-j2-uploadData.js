@@ -4,7 +4,7 @@ insertDocuments({
   collection: 'events',
   documents: (state) => {
     console.log('DHIS2 says: ' + JSON.stringify(state.data));
-    const event = state.data.data;
+    const event = state.references[0];
     return [
       {
         // Metadata Section
