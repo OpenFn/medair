@@ -4,6 +4,7 @@ fetchEvents({
     //orgUnit: 'BfMAe6Itzgt',
     orgUnit: 'g8upMTyEZGZ',
     profram: 'IpHINAT79UW',
+    attributeCategoryOptions: 'xYerKDKCefk',
     //program: 'lxAQ7Zs9VYR',
     //endDate: '2021-01-01',
   },
