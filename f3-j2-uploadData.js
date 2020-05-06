@@ -17,7 +17,6 @@ each(
       event.tags = ['openfn', 'dhis2'];
 
       return event;
-      // return null;
     },
     options: { upsert: true },
   })
