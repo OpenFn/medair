@@ -5,11 +5,12 @@ createTEI({
   attributes: [
     {
       attribute: 'w75KJ2mc4zz', // Attribute Id for FirstName in DHIS2
-      value: state.data.data.Beneficiary_First_Name, //Question in Kobo form
+      value: dataValue('data.Beneficiary_First_Name'), //Question in Kobo form
+      //state.data.data.Beneficiary_First_Name
     },
     {
       attribute: 'zDhUuAYrxNC', // LastName attribute
-      value: state.data.data.Beneficiary_Surname,
+      value: dataValue('data.Beneficiary_Surname'),
     },
     /*{
       attribute: 'attributeId', // Other DHIS2 attributes...
