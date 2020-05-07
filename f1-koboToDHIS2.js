@@ -5,11 +5,11 @@ createTEI({ //Helper function to create Tracked Entity Instance
   attributes: [
     {
       attribute: 'w75KJ2mc4zz', // Attribute Id for FirstName in DHIS2
-      value: dataValue('data.Beneficiary_First_Name'), //Question in Kobo form
+      value: dataValue('data.Beneficiary_First_Name')(state), //Question in Kobo form
     },
     {
       attribute: 'zDhUuAYrxNC', 
-      value: dataValue('data.Beneficiary_Surname'),
+      value: dataValue('data.Beneficiary_Surname')(state),
     },
     /*{
       attribute: 'attributeId', // Other DHIS2 attributes...
