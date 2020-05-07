@@ -1,7 +1,6 @@
 //Flow 3, Job 1 to fetch data from DHIS2 play instance
 
 alterState(state => {
-  // We don't care about the last run!
   state.references = [];
   return state;
 })
