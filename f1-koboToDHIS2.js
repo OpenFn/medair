@@ -5,7 +5,7 @@ createTEI({
   attributes: [
     {
       attribute: 'w75KJ2mc4zz', // Attribute Id for FirstName in DHIS2
-      value: state.data.data.Beneficiary_First_Name, //Question in CommCare form
+      value: state.data.data.Beneficiary_First_Name, //Question in Kobo form
     },
     {
       attribute: 'zDhUuAYrxNC', // LastName attribute
@@ -15,7 +15,7 @@ createTEI({
   enrollments: [
     {
       orgUnit: 'g8upMTyEZGZ',
-      program: 'IpHINAT79UW', //enroll in COVID-19 program
+      program: 'IpHINAT79UW', //enroll in Child program
       enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10),
       incidentDate: dataValue('data._submission_time')(state).substring(0, 10),
     },
