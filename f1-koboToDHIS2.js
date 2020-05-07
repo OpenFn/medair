@@ -11,11 +11,15 @@ createTEI({
       attribute: 'zDhUuAYrxNC', // LastName attribute
       value: state.data.data.Beneficiary_Surname,
     },
+    /*{
+      attribute: 'attributeId', // Other DHIS2 attributes...
+      value: sourceValue, //Map to Kobo source...
+    },*/
   ],
   enrollments: [
     {
       orgUnit: 'g8upMTyEZGZ',
-      program: 'IpHINAT79UW', //enroll in Child program
+      program: 'IpHINAT79UW', //specific program id
       enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10),
       incidentDate: dataValue('data._submission_time')(state).substring(0, 10),
     },
