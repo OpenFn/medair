@@ -7,7 +7,7 @@ insertDocuments({
     return [
       {
         // Bio Section
-        name: person.Beneficiary_First_Name + person.Beneficiary_Surname,
+        name: person.Beneficiary_First_Name + " " + person.Beneficiary_Surname,
         age: person.Beneficiary_Age,
         program: person.Program,
         registrationDate: person.Registration_Date,

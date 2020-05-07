@@ -1,30 +1,27 @@
 //Flow 1: Job to upload Kobo form to DHIS2 play instance
-createTEI({
+createTEI({ //Helper function to create Tracked Entity Instance
   trackedEntityType: 'nEenWmSyUEp',
   orgUnit: 'g8upMTyEZGZ',
   attributes: [
     {
       attribute: 'w75KJ2mc4zz', // Attribute Id for FirstName in DHIS2
-      value: state.data.data.Beneficiary_First_Name, //Question in CommCare form
+      value: dataValue('data.Beneficiary_First_Name')(state), //Question in Kobo form
     },
     {
-      attribute: 'zDhUuAYrxNC', // LastName attribute
-      value: state.data.data.Beneficiary_Surname,
-    } /*,
-    {
-      "attribute": "h5FuguPFF2j", // Case Id
-      "value": dataValue("id")(state)
+      attribute: 'zDhUuAYrxNC', 
+      value: dataValue('data.Beneficiary_Surname')(state),
     },
-    {
-      "attribute": "KdQqUHPqlqM", // Case Status
-      "value": dataValue("form.case.update.patient_case_status")(state)
-    }*/,
+    /*{
+      attribute: 'attributeId', // Other DHIS2 attributes...
+      value: sourceValue, //Map to Kobo source...
+    },*/
   ],
   enrollments: [
     {
       orgUnit: 'g8upMTyEZGZ',
-      program: 'IpHINAT79UW', //enroll in COVID-19 program
-      enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10),
+      program: 'fDd25txQckK',
+     // program: 'IpHINAT79UW', //specific program id
+      enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10), //remove timeStamp from date
       incidentDate: dataValue('data._submission_time')(state).substring(0, 10),
     },
   ],
