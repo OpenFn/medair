@@ -8,7 +8,7 @@ alterState((state) => {
 fetchEvents({
   fields: {
     orgUnit: 'g8upMTyEZGZ',
-    lastUpdated: new Date(Date.now() - 24 * 60 * 60 * 1000)
+    lastUpdated: new Date(Date.now() - 24 * 60 * 60 * 1000) //LastUpdated in last 24hrs
       .toISOString()
       .slice(0, 10),
     //program: 'M3xtLkYBlKI', //we can choose to add other filter paramters supported by DHIS2 api
