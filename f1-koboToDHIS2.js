@@ -19,7 +19,8 @@ createTEI({ //Helper function to create Tracked Entity Instance
   enrollments: [
     {
       orgUnit: 'g8upMTyEZGZ',
-      program: 'IpHINAT79UW', //specific program id
+      program: 'fDd25txQckK',
+     // program: 'IpHINAT79UW', //specific program id
       enrollmentDate: dataValue('data._submission_time')(state).substring(0, 10), //remove timeStamp from date
       incidentDate: dataValue('data._submission_time')(state).substring(0, 10),
     },
