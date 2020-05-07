@@ -13,7 +13,7 @@ each(
     collection: 'events',
     filter: (state) => ({ program: state.data.event }),
     changes: (state) => {
-      const programMap = {
+      const programMap = { //re-label dhis2 programs
         M3xtLkYBlKI: 'Food Assistance',
         IpHINAT79UW: 'Child Support',
         eBAyeGv0exc: 'Medical Support',
