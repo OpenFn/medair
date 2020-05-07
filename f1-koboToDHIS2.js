@@ -8,7 +8,7 @@ createTEI({ //Helper function to create Tracked Entity Instance
       value: dataValue('data.Beneficiary_First_Name'), //Question in Kobo form
     },
     {
-      attribute: 'zDhUuAYrxNC', // LastName attribute
+      attribute: 'zDhUuAYrxNC', 
       value: dataValue('data.Beneficiary_Surname'),
     },
     /*{
