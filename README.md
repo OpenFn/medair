@@ -2,6 +2,10 @@
 This is a sample documentation page pulled from the UNICEF Cambodia integration project. 
 
 ## (1) Functional Requirements
+- [x] Business value articulated?
+- [x] User Stories documented?
+- [x] Data Sharing protocols signed-off by partners?
+
 [See this Word document]() for the project summary, background, and objectives. 
 
 OpenFn integration was implemented to facilitate automated, secure data exchange between the Primero and Oscar case management systems. This integration supports child protection service delivery and coordination between agency partners. 
@@ -63,7 +67,7 @@ System administrators are responsible for identifying if changes may impact the 
 
 ## (7) Administration
 ### Provisioning, Hosting, & Maintenance
-This integration is hosted on [OpenFn.org](https://openfn.org/projects) with Primero SaaS. OpenFn will provide ongoing maintenance support. 
+This integration is hosted on [OpenFn.org](https://openfn.org/projects) with Primero SaaS. OpenFn will provide ongoing maintenance support. Primero system administrators will be responsible for integration monitoring and identifying when Primero system changes require integration updates. 
 
 ### Support 
 Primero system administrators will be responsible for ongoing integration monitoring and management.
