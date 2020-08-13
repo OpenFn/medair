@@ -77,6 +77,6 @@ Primero system administrators will be responsible for ongoing integration monito
 Contact support@openfn.org with any questions or troubleshooting support. 
 
 ## Support Checklist
-- [ ] OpenFn Admin users & access levels confirmed? 
-- [ ] OpenFn Admin training delivered? 
-- [ ] Support POCs identified for each connected system? 
+- [x] OpenFn Admin users & access levels confirmed? 
+- [x] OpenFn Admin training delivered? 
+- [x] Support POCs identified for each connected system? 
