@@ -32,12 +32,12 @@ To operationalize the user stories, the below OpenFn jobs were implemented to au
 [Link to data flow visual diagrams.]()
 
 _**Flow 1: Oscar referrals --> Primero**_
-1. getOscarCases.js
-2. postToPrimero.js
+1. `getOscarCases.js`
+2. `postToPrimero.js`
 
 _**Flow 2: Primero cases --> OScar**_
-1. getPrimeroCases.js
-2. postToOscar.js
+1. `getPrimeroCases.js`
+2. `postToOscar.js`
 
 
 ## (4) Flow Triggers
