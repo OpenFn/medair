@@ -45,8 +45,8 @@ OpenFn jobs run on cron at 15 minutes past the hour.
 
 ### Integration Assumptions 
 1. **Unique Identifiers**: OpenFn will perform upsert() (update if record exists, create if new) operations in both the Primero and OSCaR systems when syncing data. To ensure no duplicate cases are entered, OpenFn will use the below identifiers to check for existing cases. We assume that these identifiers are unique.
-- OSCaR unique id: global_id (represented as oscar_number in Primero system)
-- Primero unique id: case_id (represented as external_id in OSCaR system)
+Oscar unique id: `global_id` (represented as `oscar_number` in Primero system)
+Primero unique id: `case_id` (represented as `external_id` in Oscar system)
 3. **Service Mappings**: Primero and Oscar partners have signed off on these service mappings to align on service classification types for referrals. If any services change, [this map]() referenced in the OpenFn jobs must be updated.
 
 ## (5) Data Flow Mappings & Transformations
