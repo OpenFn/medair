@@ -1,5 +1,5 @@
-# Medair Project
-Description: OpenFn prototype to integrate Kobo Toolbox, MongoDB, and DHIS2
+# Medair Project Name
+Description...
 
 ## (1) Functional Requirements
 [See here] for the project summary, background, and objectives. 
