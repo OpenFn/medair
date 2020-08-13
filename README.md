@@ -16,9 +16,9 @@ _**Flow 2: Primero case updates --> Oscar**_
 ## (2) Systems
 OpenFn facilitates a scheduled, bi-directional data sync between the Primero and Oscar systems every hour. 
 **APIs** :
-* Primero is UNICEF's open-source case management tool for managing child protection service delivery.
+**Primero** is UNICEF's open-source case management tool for managing child protection service delivery.
 - [Link to API v2]()
-* Oscar is the case management tool used by the Cambodia government and key partner organizations for managing delivery of a range of social services. 
+**Oscar** is the case management tool used by the Cambodia government and key partner organizations for managing delivery of a range of social services. 
 - [Link to API docs]()
 
 **OpenFn language-packages** (API adaptors) implemented: 
