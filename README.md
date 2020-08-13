@@ -1,8 +1,8 @@
 # Medair Project Name
-Description...
+This is a sample documentation page pulled from the UNICEF Cambodia integration project. 
 
 ## (1) Functional Requirements
-[See here]() for the project summary, background, and objectives. 
+[See this Word document]() for the project summary, background, and objectives. 
 
 OpenFn integration was implemented to facilitate automated, secure data exchange between the Primero and Oscar case management systems. This integration supports child protection service delivery and coordination between agency partners. 
 
