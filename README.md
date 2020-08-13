@@ -67,7 +67,7 @@ System administrators are responsible for identifying if changes may impact the 
 
 ## (7) Administration
 ### Provisioning, Hosting, & Maintenance
-This integration is hosted on [OpenFn.org](https://openfn.org/projects) with Primero SaaS. OpenFn will provide ongoing maintenance support. Primero system administrators will be responsible for integration monitoring and identifying when Primero system changes require integration updates. 
+This integration is hosted on [OpenFn.org](https://openfn.org/projects) with Primero SaaS. OpenFn will provide ongoing maintenance support. 
 
 ### Support 
 Primero system administrators will be responsible for ongoing integration monitoring and management.
