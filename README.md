@@ -4,7 +4,7 @@ Description...
 ## (1) Functional Requirements
 [See here] for the project summary, background, and objectives. 
 
-OpenFn integration was implemented to facilitate automated, secure data exchange between the Primero and Oscar case management systems to support child protection service delivery and coordination between agency partners. 
+OpenFn integration was implemented to facilitate automated, secure data exchange between the Primero and Oscar case management systems. This integration supports child protection service delivery and coordination between agency partners. 
 
 _**Flow 1: Oscar referrals --> Primero**_
 * User Story 1: As a case worker, I want to send case data to Primero so that I can refer children for services not provided by the government.  
