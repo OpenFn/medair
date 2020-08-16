@@ -1,5 +1,12 @@
 # Medair Project Name
-This is a sample documentation page pulled from the UNICEF Cambodia integration project. 
+This is a sample documentation page pulled from the UNICEF Cambodia integration project. This includes: 
+- [x] (1) Functional Requirements
+- [x] (2) Systems Overview
+- [x] (3) Integration Flows
+- [x] (4) Flow Triggers
+- [x] (5) Integration Mapping Specifications
+- [x] (6) Change Management Guidance
+- [x] (7) Support
 
 ## (1) Functional Requirements
 - [x] Business value articulated?
@@ -17,7 +24,7 @@ _**Flow 2: Primero case updates --> Oscar**_
 * User Story 2: As a case worker, I want to monitor updates to cases referred to external systems so that I can ensure that the child is receiving the appropriate care and that the referral is being managed by the external agency. 
 
 
-## (2) Systems
+## (2) Systems Overview
 OpenFn facilitates a scheduled, bi-directional data sync between the Primero and Oscar systems every hour. 
 
 **Primero** is UNICEF's open-source case management tool for managing child protection service delivery.
@@ -30,7 +37,7 @@ OpenFn adaptors implemented to connect with these external APIs:
 * [language-primero](https://github.com/OpenFn/language-primero)
 * [language-http](https://github.com/OpenFn/language-http)
 
-## (3) Data Flows
+## (3) Integration Flows
 To operationalize the user stories, the below OpenFn jobs were implemented to automate this data flow: 
 [Link to data flow visual diagrams.]()
 
@@ -54,7 +61,7 @@ Oscar unique id: `global_id` (represented as `oscar_number` in Primero system)
 Primero unique id: `case_id` (represented as `external_id` in Oscar system)
 3. **Service Mappings**: Primero and Oscar partners have signed off on these service mappings to align on service classification types for referrals. If any services change, [this map]() referenced in the OpenFn jobs must be updated.
 
-## (5) Data Flow Mappings & Transformations
+## (5) Integration Mapping Specifications
 [See this table](https://docs.google.com/spreadsheets/d/1f1fT3qmM4mKT98AaJ0ArlgONQRC-W9ghoa-j4BswwbM/edit?usp=sharing) for the integration mapping specifications. 
 
 ## (6) Change Management
